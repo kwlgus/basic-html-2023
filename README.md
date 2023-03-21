@@ -9,4 +9,4 @@ Java 개발자 과정 프론드앤드 리포지토리
     - HTML 5 기본태그
 
 1일차 학습내용
-<img src="https://raw.githubusercontent.com/kwlgus1216/basic-html-2023/main/image/day1.png" width="300">
+<img src="https://raw.githubusercontent.com/kwlgus/basic-html-2023/main/image/day1.png" width="300">
