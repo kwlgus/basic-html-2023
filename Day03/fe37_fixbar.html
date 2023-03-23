@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>고정바 영역</title>
+    <style>
+        .container {
+            margin-top: 50px; margin-left: 50px;
+        }
+        .top_bar {
+            background-color: aqua;
+            position: fixed;
+            left: 0; top: 0; right: 0;
+            height: 50px;
+        }
+        .left_bar{
+            background-color: cadetblue;
+            position: fixed;
+            left: 0; top: 50px; bottom: 0;
+            width: 50px;
+        }
+        .container > h1 {
+            width: 500px;
+        }
+        .ell { /* 기준 넓이를 넘어가면 생략기호(...)로 바꿈 */
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <div class="top_bar"></div>
+    <div class="left_bar"></div>
+    <div class="container">
+        <h1 class="ell">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quis atque voluptate nisi soluta similique error necessitatibus magnam. Harum, adipisci? Nesciunt quos laborum iste molestias, suscipit fugiat beatae adipisci quia?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt modi facilis minus harum, eos repellat quam, pariatur maxime ab atque corrupti. Recusandae, cum ea sed non veritatis nulla neque amet.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modiLorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modiLorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modiLorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modi</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modiLorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modiLorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modiLorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modi</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modiLorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modiLorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modiLorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modi</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modiLorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modiLorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modiLorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modi</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modiLorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modiLorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modiLorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci dolore reiciendis odit est, dignissimos optio nostrum ut quisquam facilis sequi. Distinctio impedit incidunt veniam eius reprehenderit itaque aliquid modi</p>
+    </div>
+</body>
+</html>
