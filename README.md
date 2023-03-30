@@ -26,6 +26,7 @@ Java 개발자 과정 프론드엔드 리포지토리
     - Grid 레이아웃
 
 3일차 레이아웃
+
 <img src="https://raw.githubusercontent.com/kwlgus/basic-html-2023/main/image/layout3.png" width="700">
 
 ## 4일차
@@ -36,6 +37,7 @@ Java 개발자 과정 프론드엔드 리포지토리
     - jQuery
 
 4일차 그리드레이아웃 포토갤러리
+
 <img src="https://raw.githubusercontent.com/kwlgus/basic-html-2023/main/image/gallery01.png" width="700">
 
 
