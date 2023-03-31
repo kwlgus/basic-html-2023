@@ -91,7 +91,7 @@ Grayscale Single Page Template
         - Bootstrap
         - Chart.js
 
-SB Adnin Page 중간 단계
+SB Admin Page 중간 단계
 
 <img src="https://raw.githubusercontent.com/kwlgus/basic-html-2023/main/image/portfolio04_middle.png" width="700">
 
